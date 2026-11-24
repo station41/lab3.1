@@ -17,10 +17,10 @@ xt = xb
 # цикл
 while xt <= xe:
     # вычисление функции
-    if xt <= -6:
+    if xt < -6:
         y = 2
     elif xt <= -2:
-        y = 0.5 * xt + 1
+        y = 0.25 * xt + 0.5
     elif xt <= 0:
         y = 2 - math.sqrt(4 - (xt + 2) ** 2)
     elif xt <= 2:
